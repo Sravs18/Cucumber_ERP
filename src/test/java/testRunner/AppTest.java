@@ -10,8 +10,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @io.cucumber.testng.CucumberOptions(features = {"FeatureFiles"},
 monochrome = true,
 glue = {"stepDefenitions"}
-,plugin = {"pretty","html:target/report/cucumber","json:target/report/cucumber.json"
-		,"junit:target/report/cucumber.xml"})
+,plugin = {"pretty","html:target/report/cucumber.html","json:target/report/cucumber.json"
+		,"junit:target/report/cucumber.xml",})
 public class AppTest extends AbstractTestNGCucumberTests {
 
 }
